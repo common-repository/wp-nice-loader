@@ -1,0 +1,67 @@
+.nice-loader-form-control label {
+    clear: both;
+    cursor: pointer;
+    display: block;
+}
+.nice-loader-form-control label span {
+    font-weight: bold;
+    font-size:14px;
+    display: block;
+    clear: both;
+}
+.nice-loader-form-control label input,
+.nice-loader-form-control label select,
+.nice-loader-form-control label textarea {
+    display: block;
+    clear: both;
+    width: 90%;
+    border:0;
+    margin-top: 10px;
+}
+.nice-loader-form-control.nice-loader-checkbox {
+    clear: both;
+    display: inline-block;
+    width: 100%;
+}
+.nice-loader-form-control.nice-loader-checkbox label span {
+    clear: none;
+    display: inline-block;
+    float: left;
+}
+.nice-loader-form-control.nice-loader-checkbox label input {
+    display: block;
+    width: auto;
+    clear: none;
+    margin: 0 5px 0 0;
+    float: left;
+    position: relative;
+    top: 6px;
+}
+/****** ADMIN GRID *****/
+.admin-row {
+    display: block;
+    clear: both;
+    min-height: 1px;
+}
+.admin-row:after,
+.admin-row:before {
+    content: " ";
+    clear: both;
+    display: block;
+}
+.admin-col-6 {
+    width: 50%;
+    float: left;
+}
+
+@media screen and (max-width:768px) {
+    .admin-col-6 {
+        width: 100%;
+        float: left;
+    }
+    .nice-loader-form-control label input,
+    .nice-loader-form-control label select,
+    .nice-loader-form-control label textarea {
+        width: 100%;
+    }
+}
